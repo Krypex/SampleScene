@@ -9,82 +9,72 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1677572801442422}
+  m_RootGameObject: {fileID: 1147685391441436}
   m_IsPrefabAsset: 1
---- !u!1 &1677572801442422
+--- !u!1 &1147685391441436
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4055863130283710}
-  - component: {fileID: 212946742451085302}
-  - component: {fileID: 114223230147729920}
-  - component: {fileID: 61194346178545858}
+  - component: {fileID: 4388583945703434}
+  - component: {fileID: 212416046558328974}
+  - component: {fileID: 58864874861693886}
+  - component: {fileID: 114065426148436740}
   m_Layer: 0
-  m_Name: Victory
+  m_Name: CopperCoin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4055863130283710
+--- !u!4 &4388583945703434
 Transform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1677572801442422}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 63.989998, y: -19, z: 0}
+  m_GameObject: {fileID: 1147685391441436}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.435794, y: -0.4885404, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &61194346178545858
-BoxCollider2D:
+--- !u!58 &58864874861693886
+CircleCollider2D:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1677572801442422}
+  m_GameObject: {fileID: 1147685391441436}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
+  m_Offset: {x: 0.006559074, y: -0.0062794685}
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
---- !u!114 &114223230147729920
+  m_Radius: 0.24447674
+--- !u!114 &114065426148436740
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1677572801442422}
+  m_GameObject: {fileID: 1147685391441436}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 98d304dcf6c0abc43b10e99446981230, type: 3}
+  m_Script: {fileID: 11500000, guid: 0545074fd248c7d44a44688ae727f418, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scenetoload: SampleScene
---- !u!212 &212946742451085302
+  amount: 1
+--- !u!212 &212416046558328974
 SpriteRenderer:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1677572801442422}
+  m_GameObject: {fileID: 1147685391441436}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -114,7 +104,7 @@ SpriteRenderer:
   m_SortingLayerID: -2017088595
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300038, guid: ef6f10d72957a3941851093b3e797d4d, type: 3}
+  m_Sprite: {fileID: 21300006, guid: ef6f10d72957a3941851093b3e797d4d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
