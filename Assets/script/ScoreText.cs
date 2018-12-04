@@ -10,11 +10,11 @@ public class ScoreText : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 
-        text = GetComponent<TextMeshProUGUI>();
-	}
+        text = GetComponent<TextMeshProUGUI>(); // Bestämmer vilken component/objekt variabeln påverkar
+    }
 	
 	// Update is called once per frame
 	void Update () {
-        text.text = string.Format("Score: {0:000}", Money.score);
+        text.text = string.Format("Score: {0:000}", Money.score); // Visar hur mycket poäng du får!!
 	}
 }

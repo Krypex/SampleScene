@@ -12,23 +12,23 @@ public class EnemyHorizontalMoment : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        rbody = GetComponent<Rigidbody2D>();
+        rbody = GetComponent<Rigidbody2D>(); // Bestämmer vilken component/objekt variabeln påverkar
     }
     private void FixedUpdate()
     {
   
         if (Left == true)
         {
-            rbody.velocity = (-(Vector2)transform.right * speed);
+            rbody.velocity = (-(Vector2)transform.right * speed); // Hastigheten för Fienden !!
             
-            transform.localScale = new Vector3(1, 1, 1);
+            transform.localScale = new Vector3(1, 1, 1); // Skalnignen av Fienden gör så att den går åt ett annat håll (Höger i spelet)
         }
 
         else
         {
-            rbody.velocity = ((Vector2)transform.right * speed);
-        
-            transform.localScale = new Vector3(-1, 1, 1);
+            rbody.velocity = ((Vector2)transform.right * speed); // Hastigheten för Fienden !!
+
+            transform.localScale = new Vector3(-1, 1, 1);  // Skalnignen av Fienden gör så att den går åt ett annat håll (Vänster i spelet)
 
         }
 
@@ -44,7 +44,7 @@ public class EnemyHorizontalMoment : MonoBehaviour
     {
         if (collision.tag == "InvisibleWall")
         {
-            Left = !Left;
+            Left = !Left;  // Om Fienden går emot ett objekt med taggen Invisiablewall så vänder den riktning
 
         }
       

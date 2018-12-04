@@ -3,15 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Groundchecker : MonoBehaviour {
-    public bool isgrounded;
+    public int isgrounded;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        isgrounded = true;
+        isgrounded ++;  // Kollar om du är på marken
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        isgrounded = false;
+        isgrounded --;  // Kollar om du inte är på marken
     }
 }

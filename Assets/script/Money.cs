@@ -12,13 +12,13 @@ public class Money : MonoBehaviour {
     {
         if(collision.tag == "Player")
         {
-            Destroy(gameObject);
-            Money.score += amount;
+            Destroy(gameObject);   // Om taggen Player nuddar ett object med det här scriptet på så får spelaren en viss summa pengaroch objektet förstörs!
+            Money.score += amount;  // Texten Score är lika med summan det du får av objektet!
         }
     }
     private void Update()
     {
-        transform.Rotate(0, spinspeed * Time.deltaTime, 0);
+        transform.Rotate(0, spinspeed * Time.deltaTime, 0); // Gör så objektet snörrar
 
     }
 }

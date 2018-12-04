@@ -11,10 +11,10 @@ public class LoadStage2 : MonoBehaviour {
     private void OnTriggerEnter2D(Collider2D collision)
     {
         print("Trigger enter");
-        if (collision.tag == "Player" && Money.score >= MinimumScoreNeeded)
+        if (collision.tag == "Player" && Money.score >= MinimumScoreNeeded) 
         {
             SceneManager.LoadScene(scenetoload);
-            Money.score = 0;
+            Money.score = 0;                           // Om objektet med taggen Player och Scoret är 101 eller högre så laddar den Stage2 (Namnet på nästa sen!
         }
     }
 
