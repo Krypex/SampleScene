@@ -8,9 +8,10 @@ public class Load_SampleScene1 : MonoBehaviour {
     // Use this for initialization
     public string scenetoload = "SampleScene1"; // Laddar SampleScene(Namnet på sennen)
     public int MinimumScoreNeeded = 0;
+    // Om ett objekt nuddar denna trigger så händer detta nedanför
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        print("Trigger enter"); // Skriv trigger enter i kontroll panelen(Debug.Log)
+        // om objektet har taggen ´player så händer detta nedanför
         if (collision.tag == "Player")
         {
             SceneManager.LoadScene(scenetoload);  // Om taggen Player nuddar så laddar den SampleScene(Namnet på en sen)

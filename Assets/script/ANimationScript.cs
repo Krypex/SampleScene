@@ -6,14 +6,14 @@ using UnityEngine;
 
 public class ANimationScript : MonoBehaviour
 {
-    public static Color color = Color.white;
+    public static Color color = Color.white; // Static betyder att jag kan koppla min variabel till andra script
     public static SpriteRenderer rend;
 
 
     // Use this for initialization
     void Start()
     {
-        GetComponent<SpriteRenderer>();
+        GetComponent<SpriteRenderer>(); // Hämtar koponenten SPriteRenderer
     }
 
     // Update is called once per frame

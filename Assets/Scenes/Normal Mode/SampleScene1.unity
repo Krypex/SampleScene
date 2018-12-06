@@ -13349,7 +13349,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 457add9670013a14ab34e83b77cf99cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scenetoload: Stage2
+  scenetoload: Stage2_Normal
   MinimumScoreNeeded: 101
 --- !u!1 &554039121 stripped
 GameObject:

@@ -16,32 +16,29 @@ public class EnemyHorizontalMoment : MonoBehaviour
     }
     private void FixedUpdate()
     {
-  
+        // Om variablen Left = true/på så händer detta nedan
         if (Left == true)
-        {
+        {   //Denna kåd utger Fiendens hastighet!!
             rbody.velocity = (-(Vector2)transform.right * speed); // Hastigheten för Fienden !!
             
+            //Denna kåd bestämmer vilken scale figuren är 
             transform.localScale = new Vector3(1, 1, 1); // Skalnignen av Fienden gör så att den går åt ett annat håll (Höger i spelet)
         }
 
         else
-        {
+        {   //Denna kåd utger Fiendens hastighet!!
             rbody.velocity = ((Vector2)transform.right * speed); // Hastigheten för Fienden !!
-
+            
+            //Denna kåd bestämmer vilken scale figuren är 
             transform.localScale = new Vector3(-1, 1, 1);  // Skalnignen av Fienden gör så att den går åt ett annat håll (Vänster i spelet)
 
         }
 
       
     }
-    // Update is called once per frame
-    void Update()
-    {
-    }
-  
-    
+   // O´m detta objekt som har scriptet på nuddar en trigger så händer detta nedan
     private void OnTriggerEnter2D(Collider2D collision)
-    {
+    {   // om objektet som är triggern har taggen Invisiblewall så händer detta nedan
         if (collision.tag == "InvisibleWall")
         {
             Left = !Left;  // Om Fienden går emot ett objekt med taggen Invisiablewall så vänder den riktning

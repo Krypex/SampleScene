@@ -15913,24 +15913,6 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eccff353704c5e140972b934d5fd61fc, type: 2}
   m_IsPrefabAsset: 0
---- !u!1 &1681827391 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1105210239505100, guid: eccff353704c5e140972b934d5fd61fc,
-    type: 2}
-  m_PrefabInternal: {fileID: 1740434482}
---- !u!114 &1681827395
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1681827391}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 98d304dcf6c0abc43b10e99446981230, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scenetoload: SampleScene
-  MinimumScoreNeeded: 0
 --- !u!1001 &1726555272
 Prefab:
   m_ObjectHideFlags: 0
@@ -16000,59 +15982,40 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 437243731}
     m_Modifications:
-    - target: {fileID: 4857065915495776, guid: eccff353704c5e140972b934d5fd61fc, type: 2}
+    - target: {fileID: 4213699363869086, guid: 6fe2a988d4680b14385286576fdd92d7, type: 2}
       propertyPath: m_LocalPosition.x
       value: -1.0100002
       objectReference: {fileID: 0}
-    - target: {fileID: 4857065915495776, guid: eccff353704c5e140972b934d5fd61fc, type: 2}
+    - target: {fileID: 4213699363869086, guid: 6fe2a988d4680b14385286576fdd92d7, type: 2}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4857065915495776, guid: eccff353704c5e140972b934d5fd61fc, type: 2}
+    - target: {fileID: 4213699363869086, guid: 6fe2a988d4680b14385286576fdd92d7, type: 2}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4857065915495776, guid: eccff353704c5e140972b934d5fd61fc, type: 2}
+    - target: {fileID: 4213699363869086, guid: 6fe2a988d4680b14385286576fdd92d7, type: 2}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 4857065915495776, guid: eccff353704c5e140972b934d5fd61fc, type: 2}
+    - target: {fileID: 4213699363869086, guid: 6fe2a988d4680b14385286576fdd92d7, type: 2}
       propertyPath: m_LocalRotation.y
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 4857065915495776, guid: eccff353704c5e140972b934d5fd61fc, type: 2}
+    - target: {fileID: 4213699363869086, guid: 6fe2a988d4680b14385286576fdd92d7, type: 2}
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 4857065915495776, guid: eccff353704c5e140972b934d5fd61fc, type: 2}
+    - target: {fileID: 4213699363869086, guid: 6fe2a988d4680b14385286576fdd92d7, type: 2}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4857065915495776, guid: eccff353704c5e140972b934d5fd61fc, type: 2}
+    - target: {fileID: 4213699363869086, guid: 6fe2a988d4680b14385286576fdd92d7, type: 2}
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1105210239505100, guid: eccff353704c5e140972b934d5fd61fc, type: 2}
-      propertyPath: m_Name
-      value: Spikes (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 60002707528980574, guid: eccff353704c5e140972b934d5fd61fc,
-        type: 2}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 212152168776638248, guid: eccff353704c5e140972b934d5fd61fc,
-        type: 2}
-      propertyPath: m_SortingLayerID
-      value: -2017088595
-      objectReference: {fileID: 0}
-    - target: {fileID: 212152168776638248, guid: eccff353704c5e140972b934d5fd61fc,
-        type: 2}
-      propertyPath: m_SortingLayer
-      value: 3
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: eccff353704c5e140972b934d5fd61fc, type: 2}
+  m_SourcePrefab: {fileID: 100100000, guid: 6fe2a988d4680b14385286576fdd92d7, type: 2}
   m_IsPrefabAsset: 0
 --- !u!1001 &1747412886
 Prefab:

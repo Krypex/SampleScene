@@ -7,7 +7,8 @@ public class Money : MonoBehaviour {
     public int amount = 100;
     private float spinspeed = 180;
     public static int score;
-
+   
+    // Ett objekt nuddar denna trigger så händer detta nedan
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.tag == "Player")

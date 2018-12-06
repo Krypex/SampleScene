@@ -5,16 +5,20 @@ using UnityEngine.SceneManagement;
 
 public class LoadStage2 : MonoBehaviour {
 
-    // Use this for initialization
+   
     public string scenetoload = "Stage2";
     public int MinimumScoreNeeded = 101;
+
+    //Om något kolliderar med denna trigger så händer det nedan för
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        print("Trigger enter");
+        //Om ett ebjekt med taggen nuddar detta objekt som scriptet ligger på
+        // Så laddar den scenetolaod vilket betyder i detta fall sennen Stage2
+        //Med 0 poäng
         if (collision.tag == "Player" && Money.score >= MinimumScoreNeeded) 
         {
             SceneManager.LoadScene(scenetoload);
-            Money.score = 0;                           // Om objektet med taggen Player och Scoret är 101 eller högre så laddar den Stage2 (Namnet på nästa sen!
+            Money.score = 0;                           
         }
     }
 
